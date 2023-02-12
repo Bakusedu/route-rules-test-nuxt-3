@@ -2,6 +2,8 @@
 const { data, pending, error } = await useFetch(
   "https://worldtimeapi.org/api/ip"
 );
+
+console.log(data);
 </script>
 <template>
   <div>

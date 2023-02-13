@@ -1,10 +1,4 @@
-<script setup>
-const { data, pending, error } = await useFetch(
-  "https://worldtimeapi.org/api/timezone/Africa/Lagos"
-);
-
-console.log(data);
-</script>
+<script setup></script>
 <template>
   <div>
     <h1>Static template</h1>

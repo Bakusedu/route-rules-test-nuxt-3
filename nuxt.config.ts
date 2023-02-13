@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
   routeRules: {
     // Static page generated on-demand once
-    "/static": { static: true },
+    "/": { static: true },
   },
 });
